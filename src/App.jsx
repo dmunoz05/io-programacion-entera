@@ -92,14 +92,14 @@ function App() {
           {objectiveCoeffs.length > 0 && (
             <div>
               <h2 className="text-lg font-semibold mb-2">Función Objetivo:</h2>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 w-full">
                 {objectiveCoeffs.map((val, idx) => (
                   <input
                     key={idx}
                     type="number"
                     value={val}
                     onChange={(e) => handleObjectiveChange(idx, e.target.value)}
-                    className="border p-2 rounded-lg w-20"
+                    className="border p-2 rounded-lg w-auto"
                     placeholder={`x${idx + 1}`}
                   />
                 ))}
