@@ -68,7 +68,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen flex justify-center items-center bg-gradient-to-b from-blue-600 to-black text-black p-4">
+    <div className="min-h-screen flex justify-center items-center bg-gradient-to-b from-blue-600 to-black text-black p-4 pb-18">
       <div className="bg-white rounded-3xl shadow-lg p-10 w-full max-w-2xl">
         <h1 className="text-4xl font-bold text-center mb-8 text-gray-700">Solucionador de Programación Entera</h1>
 
